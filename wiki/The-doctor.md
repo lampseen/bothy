@@ -67,10 +67,10 @@ quarantined.
 `--json` exists so something other than a person can read the report. Its shape
 is a stability surface, and what that obliges is set out in
 [What you can depend on](What-you-can-depend-on) and
-[ADR-036](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-036--what-stable-obliges-and-why-the-config-schema-warns).
+[ADR-036](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-036--what-stable-obliges-and-why-the-config-schema-warns).
 
 The IDs are the ones listed in `Checks()` in
-[`internal/doctor/doctor.go`](https://github.com/bspeelm/bothy/blob/main/internal/doctor/doctor.go).
+[`internal/doctor/doctor.go`](https://github.com/lampseen/bothy/blob/main/internal/doctor/doctor.go).
 
 ## When a check is added
 

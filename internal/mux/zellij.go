@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/probe"
-	"github.com/bspeelm/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/state"
 )
 
 // Zellij is the multiplexer CI tests.

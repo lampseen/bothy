@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bspeelm/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/install"
 )
 
 // checkLayoutBuilt compares the layout the multiplexer built against the

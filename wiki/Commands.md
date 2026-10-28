@@ -38,7 +38,7 @@ bothy: reclaimed bothy-work from a closed window
 ```
 
 A session someone is actually looking at is still refused; see [ADR-042]
-(https://github.com/bspeelm/bothy/blob/main/docs/decisions.md) for how it tells
+(https://github.com/lampseen/bothy/blob/main/docs/decisions.md) for how it tells
 the two apart.
 
 `--window` and `--in-place` override bothy's own judgement for one run. It
@@ -273,7 +273,7 @@ The version, and whether it is a release or a source build.
 ### `bothy outdated [--json]`
 
 Which pinned tools have newer releases upstream. Reports; it does not upgrade.
-The pins live in [`bothy.lock`](https://github.com/bspeelm/bothy/blob/main/bothy.lock).
+The pins live in [`bothy.lock`](https://github.com/lampseen/bothy/blob/main/bothy.lock).
 
 ### `bothy upgrade`
 

@@ -85,7 +85,7 @@ catch that one for you. `Ctrl-o d` is the way out.
 into a session running inside a pane, so a take-over that nested would draw
 two tab bars and `Ctrl-q` would end the tower. Instead the tower closes and
 the session takes the window; leaving that session brings the tower back,
-rebuilt ([ADR-061](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-061--the-take-over-hands-the-window-over-where-the-multiplexer-will-not-descend)).
+rebuilt ([ADR-061](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-061--the-take-over-hands-the-window-over-where-the-multiplexer-will-not-descend)).
 
 ### What it does to the windows
 

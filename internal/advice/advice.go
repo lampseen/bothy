@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 // Advice is a provider bothy advises on: its header, flattened with its

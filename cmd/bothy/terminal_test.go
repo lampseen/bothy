@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/bspeelm/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/install"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // clearDisplay removes any graphical session from the environment, so a test

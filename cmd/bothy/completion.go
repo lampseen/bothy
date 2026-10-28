@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	bothy "github.com/bspeelm/bothy"
-	"github.com/bspeelm/bothy/internal/platform"
+	bothy "github.com/lampseen/bothy"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // `bothy completion` -- the completion scripts, for the ways in that no package

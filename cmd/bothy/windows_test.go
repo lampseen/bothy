@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bspeelm/bothy/internal/doctor"
+	"github.com/lampseen/bothy/internal/doctor"
 )
 
 // What the doctor must report on Windows after a full install. A new check

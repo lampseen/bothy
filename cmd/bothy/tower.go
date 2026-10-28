@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // The half of `bothy tower` that starts nothing: which pane holds an agent,

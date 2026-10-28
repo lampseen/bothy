@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 // A `when` nothing recognises writes the file, so a typo shows rather than

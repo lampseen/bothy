@@ -3,7 +3,7 @@
 A terminal workspace assembled from tools you already have. One command opens a
 file browser, an agent and a shell in one window, configured and checked.
 
-The [README](https://github.com/bspeelm/bothy) is the overview; these pages are
+The [README](https://github.com/lampseen/bothy) is the overview; these pages are
 the detail. Start with the terms: bothy uses a handful of them precisely, and
 the rest of the documentation assumes them.
 
@@ -22,7 +22,7 @@ the rest of the documentation assumes them.
 | **passthrough** | using your own config for a tool instead of bothy's. Name the slot, not the program |
 | **box** | a toolbox or distrobox container. It shares your home directory but keeps its own installed packages. `toolbox` creates them; bothy remembers which box each project belongs in |
 | **confine** | running the agent in a container with your project mounted and the rest of `$HOME` not. Opt-in, never automatic |
-| **the lock** | [`bothy.lock`](https://github.com/bspeelm/bothy/blob/main/bothy.lock) — the version and checksum of every tool bothy would fetch. Nothing is downloaded that is not pinned here |
+| **the lock** | [`bothy.lock`](https://github.com/lampseen/bothy/blob/main/bothy.lock) — the version and checksum of every tool bothy would fetch. Nothing is downloaded that is not pinned here |
 
 Two directories, and it is worth knowing which is which:
 
@@ -67,7 +67,7 @@ Two directories, and it is worth knowing which is which:
 
 ## Design decisions
 
-Every decision is numbered in [`docs/decisions.md`](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md), with
+Every decision is numbered in [`docs/decisions.md`](https://github.com/lampseen/bothy/blob/main/docs/decisions.md), with
 what was given up and what was refused.
 
 ---

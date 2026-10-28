@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // A real list-panes reply, from a running cockpit. The agent is terminal_1 here

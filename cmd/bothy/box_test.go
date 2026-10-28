@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/state"
 )
 
 // Trimmed from real `podman ps -a --format json` output, box names replaced.

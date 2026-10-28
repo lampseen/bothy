@@ -8,11 +8,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/fetch"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/state"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // Checks that bothy's own tree is intact and that nothing lives outside it.

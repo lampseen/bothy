@@ -5,8 +5,8 @@ import (
 	"os"
 	"slices"
 
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
 )
 
 // cmdKill ends a session. The only other way is to attach and press Ctrl-q,

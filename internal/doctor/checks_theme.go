@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/install"
 )
 
 // checkThemeReached verifies the palette arrived in the files the tools read.

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	bothy "github.com/bspeelm/bothy"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/platform"
+	bothy "github.com/lampseen/bothy"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // The multiplexer bindings in muxKeys are quoted rather than read, which is

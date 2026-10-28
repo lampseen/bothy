@@ -12,16 +12,16 @@ import (
 	"strconv"
 	"strings"
 
-	bothy "github.com/bspeelm/bothy"
-	"github.com/bspeelm/bothy/internal/advice"
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/probe"
-	"github.com/bspeelm/bothy/internal/render"
-	"github.com/bspeelm/bothy/internal/slots"
-	"github.com/bspeelm/bothy/internal/theme"
+	bothy "github.com/lampseen/bothy"
+	"github.com/lampseen/bothy/internal/advice"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/render"
+	"github.com/lampseen/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/theme"
 )
 
 // Data is what every template sees.

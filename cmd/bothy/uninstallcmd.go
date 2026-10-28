@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/bspeelm/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/install"
 )
 
 // `bothy uninstall` -- remove bothy's tree, which under ADR-009 is all of it.

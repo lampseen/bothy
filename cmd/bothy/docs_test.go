@@ -3,8 +3,8 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/fetch"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -586,7 +586,7 @@ func TestWikiLinksIntoThisRepoResolve(t *testing.T) {
 		t.Skip("no wiki pages yet")
 	}
 
-	blob := regexp.MustCompile(`https://github\.com/bspeelm/bothy/blob/main/([^)#\s]+)(#([^)\s]+))?`)
+	blob := regexp.MustCompile(`https://github\.com/lampseen/bothy/blob/main/([^)#\s]+)(#([^)\s]+))?`)
 	checked := 0
 	for _, page := range pages {
 		body, err := os.ReadFile(page)
@@ -890,7 +890,7 @@ func TestTheReleaseFooterOffersTheSameChannelsAsTheREADME(t *testing.T) {
 		"dnf install bothy",
 		"apt install ./bothy",
 		"brew install --cask",
-		"go install github.com/bspeelm/bothy",
+		"go install github.com/lampseen/bothy",
 	} {
 		if !strings.Contains(footer, want) {
 			t.Errorf("the release footer never offers %q, and the README does", want)
@@ -1108,7 +1108,7 @@ func TestEveryWikiAnchorTheReadmeLinksToExists(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	deep := regexp.MustCompile(`https://github\.com/bspeelm/bothy/wiki/([A-Za-z-]+)#([a-z0-9-]+)`)
+	deep := regexp.MustCompile(`https://github\.com/lampseen/bothy/wiki/([A-Za-z-]+)#([a-z0-9-]+)`)
 	found := deep.FindAllStringSubmatch(string(body), -1)
 	if len(found) == 0 {
 		t.Fatal("no wiki deep links in the README; this test is asserting nothing")

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/confine"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/confine"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // UninstallReport is what came off the machine.

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/mux"
 )
 
 // A Zellij with the four answers killPlan asks for replaced. Embedding keeps

@@ -9,9 +9,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/tools"
 	"strings"
 )
 

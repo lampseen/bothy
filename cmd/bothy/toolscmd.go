@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/fetch"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/state"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // cmdTools shows where each tool comes from, without changing anything.

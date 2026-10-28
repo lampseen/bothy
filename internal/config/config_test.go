@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // Set is the whole of `bothy config set`, and it was a 45-case switch with no

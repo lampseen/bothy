@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 type setupOptions struct {

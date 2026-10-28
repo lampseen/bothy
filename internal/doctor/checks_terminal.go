@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/advice"
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/advice"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/probe"
 )
 
 // Checks about the terminal, the multiplexer, and getting a file opened.

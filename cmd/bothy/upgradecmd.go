@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/fetch"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/probe"
 )
 
 // `bothy upgrade` -- how to upgrade this copy, and nothing else. It does not
@@ -18,7 +18,7 @@ import (
 // a running binary from inside it leaves a half-written one on a bad network.
 
 // Repo is bothy's own slug, for asking about its releases.
-const Repo = "bspeelm/bothy"
+const Repo = "lampseen/bothy"
 
 func cmdUpgrade(args []string) error {
 	fs := flag.NewFlagSet("upgrade", flag.ExitOnError)

@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"slices"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/fetch"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/state"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // ToolReport is what happened to the tools during an install.

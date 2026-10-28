@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 // #69. passthrough is a documented feature that did not work in either

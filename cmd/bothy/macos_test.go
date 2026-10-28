@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/doctor"
+	"github.com/lampseen/bothy/internal/doctor"
 )
 
 // What the doctor must report on a Mac after a full install: no graphics

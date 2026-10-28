@@ -34,7 +34,7 @@ it asks on every launch.
 There is nothing to run. bothy launches `claude` unless configured otherwise
 and never installs an agent, because AI tools and their credentials are yours
 to manage
-([ADR-014](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-014--bothy-installs-no-editor-and-helix-could-not-be-installed-anyway)).
+([ADR-014](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-014--bothy-installs-no-editor-and-helix-could-not-be-installed-anyway)).
 
 ```sh
 bothy config set slots.agent none        # or the name of one you have
@@ -124,5 +124,5 @@ bothy)"` clears it, and the doctor prints that with your path filled in. See
 
 `bothy doctor --json` is what to attach to an issue: the bug template asks for
 it, and it carries every check with its severity and its fix.
-Report at [github.com/bspeelm/bothy/issues](https://github.com/bspeelm/bothy/issues);
-for a suspected vulnerability, [SECURITY.md](https://github.com/bspeelm/bothy/blob/main/SECURITY.md) instead.
+Report at [github.com/lampseen/bothy/issues](https://github.com/lampseen/bothy/issues);
+for a suspected vulnerability, [SECURITY.md](https://github.com/lampseen/bothy/blob/main/SECURITY.md) instead.

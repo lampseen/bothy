@@ -198,8 +198,8 @@ at a config.
 
 The model and its three tiers are [`north-star.md`](north-star.md) §4; the file
 format is [`adding-a-provider.md`](adding-a-provider.md); what a user does with
-either is [Profiles](https://github.com/bspeelm/bothy/wiki/Profiles) and
-[Swapping parts](https://github.com/bspeelm/bothy/wiki/Swapping-parts-and-theming).
+either is [Profiles](https://github.com/lampseen/bothy/wiki/Profiles) and
+[Swapping parts](https://github.com/lampseen/bothy/wiki/Swapping-parts-and-theming).
 
 One thing here that belongs to the code rather than to either: the renderer owns
 the two KDL traps — `split_direction="vertical"` means columns, and plugin nodes
@@ -214,7 +214,7 @@ Every setup failure that gets fixed ships with a check that detects it, which is
 why the list only grows and why it is the most valuable thing in the project.
 
 What each check does, how to read a report, and the five capabilities it groups
-into are [The doctor](https://github.com/bspeelm/bothy/wiki/The-doctor). The IDs themselves are `Checks()` in
+into are [The doctor](https://github.com/lampseen/bothy/wiki/The-doctor). The IDs themselves are `Checks()` in
 `internal/doctor/doctor.go`, which is the only list that cannot go stale.
 
 Two rules the code enforces rather than documents: a failure without a fix line

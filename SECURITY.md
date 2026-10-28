@@ -6,7 +6,7 @@ Report privately through GitHub's [security advisories][advisory] rather than
 in an issue. If that is not available to you, anything that reaches the
 maintainer works; a public issue is the one route to avoid for a real hole.
 
-[advisory]: https://github.com/bspeelm/bothy/security/advisories/new
+[advisory]: https://github.com/lampseen/bothy/security/advisories/new
 
 No bounty, and no fixed response time: bothy is maintained by one person, and
 states that rather than promising a schedule it cannot keep.

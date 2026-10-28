@@ -4,7 +4,7 @@ pkgver=0.9.1
 pkgrel=1
 pkgdesc='A terminal workspace assembled from tools you already have'
 arch=('x86_64' 'aarch64')
-url='https://github.com/bspeelm/bothy'
+url='https://github.com/lampseen/bothy'
 license=('MIT')
 depends=('glibc')
 makedepends=('go>=1.24' 'git')

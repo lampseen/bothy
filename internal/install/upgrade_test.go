@@ -1,15 +1,15 @@
 package install
 
 import (
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/platform"
 	"os"
 	"path/filepath"
 	"runtime"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/slots"
-	"github.com/bspeelm/bothy/internal/state"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // #55. Whether `bothy install` upgraded a tool used to depend on where it was

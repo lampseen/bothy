@@ -28,7 +28,7 @@ Closing the window leaves the machine as it was. Uninstalling removes the
 directory bothy wrote, and names the few things it cannot remove for you.
 
 The same sequence with the reasons for its order:
-[what happens when you type bothy](https://github.com/bspeelm/bothy/wiki/What-happens-when-you-type-bothy).
+[what happens when you type bothy](https://github.com/lampseen/bothy/wiki/What-happens-when-you-type-bothy).
 
 ## Install
 
@@ -41,10 +41,10 @@ what the middle pane is for.
 | | |
 |---|---|
 | **Fedora** | `sudo dnf copr enable bspeelman/bothy && sudo dnf install bothy` |
-| **Debian, Ubuntu, Mint** | download the `.deb` from [the latest release](https://github.com/bspeelm/bothy/releases/latest), then `sudo apt install ./bothy_*.deb` |
-| **macOS** | `brew install --cask bspeelm/bothy/bothy` |
-| **Windows** | `scoop bucket add bothy https://github.com/bspeelm/scoop-bothy && scoop install bothy` — [in beta](https://github.com/bspeelm/bothy/wiki/Where-it-runs) |
-| **you already have Go** | `go install github.com/bspeelm/bothy/cmd/bothy@latest` |
+| **Debian, Ubuntu, Mint** | download the `.deb` from [the latest release](https://github.com/lampseen/bothy/releases/latest), then `sudo apt install ./bothy_*.deb` |
+| **macOS** | `brew install --cask lampseen/bothy/bothy` |
+| **Windows** | `scoop bucket add bothy https://github.com/lampseen/scoop-bothy && scoop install bothy` — [in beta](https://github.com/lampseen/bothy/wiki/Where-it-runs) |
+| **you already have Go** | `go install github.com/lampseen/bothy/cmd/bothy@latest` |
 
 Then, from any directory:
 
@@ -63,7 +63,7 @@ a reboot for a binary that runs from `~/.local/bin`. It needs no root and layers
 nothing onto the host.
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/bspeelm/bothy/main/bootstrap/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/lampseen/bothy/main/bootstrap/install.sh | sh
 ```
 
 The cost is that the script is fetched over HTTPS and run unsigned, before bothy
@@ -72,8 +72,8 @@ the same trade as any `curl | sh`.
 
 There are seven ways in, counting source, and each verifies what it fetched
 differently.
-[All of them, and what checks what](https://github.com/bspeelm/bothy/wiki/Installing) ·
-[what bothy downloads and what that proves](https://github.com/bspeelm/bothy/wiki/Security)
+[All of them, and what checks what](https://github.com/lampseen/bothy/wiki/Installing) ·
+[what bothy downloads and what that proves](https://github.com/lampseen/bothy/wiki/Security)
 
 ## Commands
 
@@ -87,8 +87,8 @@ Four are used daily:
 | `bothy config set <key> <value>` | change a setting |
 
 There are nineteen in total.
-[All of them, with their flags](https://github.com/bspeelm/bothy/wiki/Commands) ·
-[how to read a doctor report](https://github.com/bspeelm/bothy/wiki/The-doctor)
+[All of them, with their flags](https://github.com/lampseen/bothy/wiki/Commands) ·
+[how to read a doctor report](https://github.com/lampseen/bothy/wiki/The-doctor)
 
 ## The parts it assembles
 
@@ -99,7 +99,7 @@ Zellij, Yazi, your `$EDITOR` and `claude`.
 
 Only the multiplexer slot requires Go to extend, because it reads the layout and
 writes the multiplexer's own format. Everything else is described by data.
-[Swapping parts, and theming](https://github.com/bspeelm/bothy/wiki/Swapping-parts-and-theming).
+[Swapping parts, and theming](https://github.com/lampseen/bothy/wiki/Swapping-parts-and-theming).
 
 ## What it touches
 
@@ -119,8 +119,8 @@ The second directory is yours. Commit it, clone it on another machine, run
 `bothy uninstall` removes the first directory and the binary, and names what it
 leaves rather than leaving you to find it.
 
-[Using your own tool configuration instead of bothy's](https://github.com/bspeelm/bothy/wiki/Swapping-parts-and-theming) ·
-[what uninstall leaves, and why](https://github.com/bspeelm/bothy/wiki/Installing#removing-it)
+[Using your own tool configuration instead of bothy's](https://github.com/lampseen/bothy/wiki/Swapping-parts-and-theming) ·
+[what uninstall leaves, and why](https://github.com/lampseen/bothy/wiki/Installing#removing-it)
 
 ## Watching several agents
 
@@ -145,7 +145,7 @@ cannot disturb it.
 It expands each watched pane to fill its own window first, because a mirror can
 only show what its pane displays and a cockpit layout gives its agent about a
 quarter of the screen. Those panes are restored when the tower closes.
-[The tower, in full](https://github.com/bspeelm/bothy/wiki/The-tower#why-it-expands-the-panes-it-watches).
+[The tower, in full](https://github.com/lampseen/bothy/wiki/The-tower#why-it-expands-the-panes-it-watches).
 
 ## Toolboxes
 
@@ -172,7 +172,7 @@ does not ask.
 
 bothy does not replace `toolbox`, which still creates the containers and enters
 them. bothy tracks which project goes where.
-[The full rules](https://github.com/bspeelm/bothy/wiki/Toolboxes).
+[The full rules](https://github.com/lampseen/bothy/wiki/Toolboxes).
 
 ## Another machine
 
@@ -195,7 +195,7 @@ The workspace runs on your own machine, so sessions, `bothy ls` and
 than the session. Inside the workspace, `on make test` runs a command on the
 remote machine in the corresponding directory. It requires sshfs locally, and
 bothy gives you the command if it is missing.
-[How it works, in full](https://github.com/bspeelm/bothy/wiki/Connecting).
+[How it works, in full](https://github.com/lampseen/bothy/wiki/Connecting).
 
 ## Confining the agent
 
@@ -217,7 +217,7 @@ or it cannot log in and the boundary protects nothing you wanted. The network is
 open, because the agent calls its API: this is a filesystem boundary, not a
 network one. And the project directory is mounted writable, because editing it
 is the purpose.
-[Setting it up, the toolbox case, configuration and cleanup](https://github.com/bspeelm/bothy/wiki/Walling-off-the-agent).
+[Setting it up, the toolbox case, configuration and cleanup](https://github.com/lampseen/bothy/wiki/Walling-off-the-agent).
 
 ## Where it runs
 
@@ -227,7 +227,7 @@ what supported means here. Windows is in beta: it is built, published and
 documented, and not yet in that set. Silverblue and the Debian derivatives
 receive advice bothy cannot test in a container, and says so.
 
-[Which terminals, which stacks, and what is untested](https://github.com/bspeelm/bothy/wiki/Where-it-runs).
+[Which terminals, which stacks, and what is untested](https://github.com/lampseen/bothy/wiki/Where-it-runs).
 
 ## Scope
 
@@ -254,7 +254,7 @@ the two directories, and the shape of `doctor --json`. `config.toml` carries
 Maintenance releases will continue. The features listed here are the ones it
 ships with and is expected to keep.
 
-[What that obliges, and what is deliberately not covered](https://github.com/bspeelm/bothy/wiki/What-you-can-depend-on).
+[What that obliges, and what is deliberately not covered](https://github.com/lampseen/bothy/wiki/What-you-can-depend-on).
 
 ## Contributing
 

@@ -4,7 +4,7 @@
 goes to `~/.local/bin`, configs to the two XDG directories, tools it fetches to
 its own tree. Nothing is layered onto the host, nothing is written system-wide,
 and there is no step that needs a reboot
-([ADR-002](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-002--user-space-install-is-the-default)).
+([ADR-002](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-002--user-space-install-is-the-default)).
 
 That is why it works unchanged on Silverblue, Kinoite and Bazzite, and inside
 Toolbx and Distrobox.
@@ -26,7 +26,7 @@ reports it and gives the command to install it.
 ## The short version
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/bspeelm/bothy/main/bootstrap/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/lampseen/bothy/main/bootstrap/install.sh | sh
 ```
 
 Then `bothy` in any directory. First run lists what is missing, asks before
@@ -42,9 +42,9 @@ the script says so and prints the line to add.
 | **script** | anyone on Linux or macOS | `curl -fsSL .../install.sh \| sh` |
 | **dnf** | Fedora Workstation | `sudo dnf copr enable bspeelman/bothy && sudo dnf install bothy` |
 | **apt** | Debian, Ubuntu, Mint | download the `.deb`, then `sudo apt install ./bothy_*.deb` |
-| **Homebrew** | macOS, or Linux if you already use brew | `brew install --cask bspeelm/bothy/bothy` |
-| **scoop** | Windows | `scoop bucket add bothy https://github.com/bspeelm/scoop-bothy && scoop install bothy` |
-| **Go** | people who already have Go | `go install github.com/bspeelm/bothy/cmd/bothy@latest` |
+| **Homebrew** | macOS, or Linux if you already use brew | `brew install --cask lampseen/bothy/bothy` |
+| **scoop** | Windows | `scoop bucket add bothy https://github.com/lampseen/scoop-bothy && scoop install bothy` |
+| **Go** | people who already have Go | `go install github.com/lampseen/bothy/cmd/bothy@latest` |
 | **source** | contributors | `git clone` then `make install-binary` |
 
 **Prefer your package manager** — dnf on Fedora, the `.deb` on Debian and
@@ -55,7 +55,7 @@ machine upgrades, and the script's unsigned first step does not apply to them.
 `rpm-ostree` and a reboot for a binary that runs from `~/.local/bin`. The `.deb`
 is a file rather than a repository, so `apt upgrade` will not bring the next
 release; download it when you want it
-([ADR-013](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-013--the-debian-package-is-a-file-not-a-repository)).
+([ADR-013](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-013--the-debian-package-is-a-file-not-a-repository)).
 
 `bothy upgrade` works out which of these you used and prints the right command.
 
@@ -76,7 +76,7 @@ log, so a swapped download is detectable whether or not anyone checks.
 
 ```sh
 curl -fsSL .../install.sh | sh -s -- --verify          # checksum and signature
-gh attestation verify ./bothy_*.deb --repo bspeelm/bothy --bundle attestation.jsonl
+gh attestation verify ./bothy_*.deb --repo lampseen/bothy --bundle attestation.jsonl
 ```
 
 Take `attestation.jsonl` from the release page. Neither needs a GitHub account,
@@ -105,7 +105,7 @@ xattr -dr com.apple.quarantine "$(which bothy)"
 `bothy doctor` recognises the flag and prints that command with your path in it.
 The reasoning, including why the project does not hold an Apple Developer ID,
 is
-[ADR-037](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-037--bothy-is-not-signed-and-the-cask-clears-the-flag-itself).
+[ADR-037](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-037--bothy-is-not-signed-and-the-cask-clears-the-flag-itself).
 
 ## What gets installed
 

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // Backend is one multiplexer.

@@ -9,8 +9,8 @@ import (
 
 	"github.com/pelletier/go-toml/v2"
 
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // cmdKeys prints the bindings someone needs on their first day, for people who
