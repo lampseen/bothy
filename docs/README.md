@@ -1,7 +1,7 @@
 # Docs
 
 Start with the [README](../README.md), then the
-[wiki](https://github.com/bspeelm/bothy/wiki) for how to use it. These files are
+[wiki](https://github.com/lampseen/bothy/wiki) for how to use it. These files are
 for understanding or changing the project itself.
 
 ## Why it is the way it is

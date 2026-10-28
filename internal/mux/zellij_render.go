@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/layout"
 )
 
 const managedHeader = `// managed by bothy — this file is generated at launch.

@@ -3,7 +3,7 @@ package mux
 import (
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/layout"
 )
 
 // `slots.mux = "none"` was an accepted config that did not work: the launcher

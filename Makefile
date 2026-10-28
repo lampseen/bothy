@@ -159,7 +159,7 @@ release-tag:
 	git tag "v$$v" && git push origin "v$$v" && \
 	echo && \
 	echo "pushed v$$v. Actions is building the archives; the webhook is building the rpms." && \
-	echo "  https://github.com/bspeelm/$(BINARY)/actions" && \
+	echo "  https://github.com/lampseen/$(BINARY)/actions" && \
 	echo "  https://copr.fedorainfracloud.org/coprs/bspeelman/$(BINARY)/builds/" && \
 	$(MAKE) --no-print-directory milestone VERSION=$$v
 
@@ -172,7 +172,7 @@ release-tag:
 # complaint. It reports, and hands over the command.
 milestone:
 	@command -v gh >/dev/null 2>&1 || { echo; echo "gh not installed; close the $(VERSION) milestone by hand."; exit 0; }
-	@m=$$(gh api repos/bspeelm/$(BINARY)/milestones --jq \
+	@m=$$(gh api repos/lampseen/$(BINARY)/milestones --jq \
 	    '.[] | select(.title == "$(VERSION)") | "\(.number)\t\(.open_issues)"' 2>/dev/null); \
 	if [ -z "$$m" ]; then \
 	    echo; echo "no open $(VERSION) milestone -- nothing to close."; exit 0; fi; \
@@ -185,7 +185,7 @@ milestone:
 	    echo "    move them on, then:"; \
 	fi; \
 	echo "close the milestone:"; \
-	echo "  gh api -X PATCH repos/bspeelm/$(BINARY)/milestones/$$num -f state=closed"
+	echo "  gh api -X PATCH repos/lampseen/$(BINARY)/milestones/$$num -f state=closed"
 
 # Publish the tag to Copr. The package is an SCM package, so this hands Copr a
 # ref and Copr does the rest: clone, .copr/Makefile, build. Nothing is built or
@@ -206,7 +206,7 @@ copr:
 	    { echo "tag v$$v has no .copr/Makefile, so Copr has nothing to run."; \
 	      echo "tags cut before it was added cannot be built this way."; exit 1; }; \
 	copr-cli buildscm $(BINARY) \
-	    --clone-url https://github.com/bspeelm/$(BINARY) \
+	    --clone-url https://github.com/lampseen/$(BINARY) \
 	    --commit "v$$v" \
 	    --spec packaging/$(BINARY).spec \
 	    --type git \

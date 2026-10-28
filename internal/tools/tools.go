@@ -16,9 +16,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/probe"
-	"github.com/bspeelm/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 // Tool is a provider bothy can fetch: its header, flattened with its [fetch]

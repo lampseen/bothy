@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/probe"
 )
 
 // stdoutIsTerminal is a seam: the branch below is the one that decided wrongly

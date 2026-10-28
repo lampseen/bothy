@@ -18,7 +18,7 @@ section meaningful.
 
 Two usernames are in play and they are not the same: the Copr project lives
 under the **Fedora account** name (`bspeelman`), while the source and releases
-live under the **GitHub** name (`bspeelm`). Copr uses the Fedora one.
+live under the **GitHub** organization (`lampseen`). Copr uses the Fedora one.
 
 ### One-time setup
 
@@ -75,7 +75,7 @@ it:
 
 ```
 close the milestone:
-  gh api -X PATCH repos/bspeelm/bothy/milestones/<n> -f state=closed
+  gh api -X PATCH repos/lampseen/bothy/milestones/<n> -f state=closed
 ```
 
 If issues are still open on it, it lists them first and says the release does

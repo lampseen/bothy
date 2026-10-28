@@ -76,4 +76,4 @@ otherwise.
 ---
 
 Why a platform counts as supported only when CI installs it:
-[ADR-012](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-012--portability-is-a-ci-claim-not-a-readme-claim).
+[ADR-012](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-012--portability-is-a-ci-claim-not-a-readme-claim).

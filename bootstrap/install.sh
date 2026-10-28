@@ -3,13 +3,13 @@
 # ~/.local/bin. This is the only shell in the project, and it stays small enough
 # to read before running (PLAN.md, ADR-001).
 #
-#   curl -fsSL https://raw.githubusercontent.com/bspeelm/bothy/main/bootstrap/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/lampseen/bothy/main/bootstrap/install.sh | sh
 #
 # It installs bothy itself and nothing else. Run `bothy install` afterwards to
 # set up the workspace.
 set -eu
 
-REPO="${BOTHY_REPO:-bspeelm/bothy}"
+REPO="${BOTHY_REPO:-lampseen/bothy}"
 BASE="${BOTHY_BASE_URL:-https://github.com/$REPO/releases}"
 VERSION="${BOTHY_VERSION:-latest}"
 BINDIR="${BOTHY_BINDIR:-$HOME/.local/bin}"

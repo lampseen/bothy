@@ -8,10 +8,10 @@ import (
 	"slices"
 	"syscall"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // `bothy box` -- which container this project runs in, what boxes exist, and

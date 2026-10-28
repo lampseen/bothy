@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bspeelm/bothy/internal/fetch"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // cmdLock regenerates bothy.lock. A maintainer command, run in the repository

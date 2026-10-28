@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/mux"
 )
 
 // A Zellij with the three answers this check asks for replaced. Embedding

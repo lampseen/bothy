@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	bothy "github.com/bspeelm/bothy"
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/render"
-	"github.com/bspeelm/bothy/internal/theme"
+	bothy "github.com/lampseen/bothy"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/render"
+	"github.com/lampseen/bothy/internal/theme"
 )
 
 func ghosttyConfig(t *testing.T, data Data) string {

@@ -18,7 +18,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/bspeelm/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/state"
 )
 
 // Marker identifies a bothy-generated file. It appears inside a comment whose

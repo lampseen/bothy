@@ -9,10 +9,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	bothy "github.com/bspeelm/bothy"
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
+	bothy "github.com/lampseen/bothy"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 const DefaultImage = "bothy-agent"

@@ -13,11 +13,11 @@ package doctor
 import (
 	"os/exec"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 // Severity distinguishes "this is broken" from "this is not what you asked for".

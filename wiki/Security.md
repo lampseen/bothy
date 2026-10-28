@@ -2,13 +2,13 @@
 
 What bothy verifies, what it deliberately does not, and where each boundary
 ends. To report a vulnerability, use
-[SECURITY.md](https://github.com/bspeelm/bothy/blob/main/SECURITY.md) — privately, through GitHub's security
+[SECURITY.md](https://github.com/lampseen/bothy/blob/main/SECURITY.md) — privately, through GitHub's security
 advisories, not a public issue.
 
 ## What bothy downloads, and what checks it
 
 bothy fetches eight tools. Every one is pinned to a version **and a sha256** in
-[`bothy.lock`](https://github.com/bspeelm/bothy/blob/main/bothy.lock), and the checksum is verified before the file is
+[`bothy.lock`](https://github.com/lampseen/bothy/blob/main/bothy.lock), and the checksum is verified before the file is
 kept. A tool already on your `PATH` at a good version is used as-is and nothing
 is downloaded.
 
@@ -34,7 +34,7 @@ Nothing you have to trust a key for. Release artifacts are signed by the GitHub
 Actions workflow that built them, keyless, and recorded in a public
 transparency log — so the binary can be traced to a specific run of a specific
 workflow on a specific commit
-([ADR-030](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-030--releases-are-signed-by-the-workflow-that-built-them)).
+([ADR-030](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-030--releases-are-signed-by-the-workflow-that-built-them)).
 
 There is deliberately no private key, so there is none to store, rotate or
 leak.
@@ -58,7 +58,7 @@ What you can do instead: download it, read it, then run it. It is one file and
 deliberately small.
 
 ```sh
-curl -fsSL -o install.sh https://raw.githubusercontent.com/bspeelm/bothy/main/bootstrap/install.sh
+curl -fsSL -o install.sh https://raw.githubusercontent.com/lampseen/bothy/main/bootstrap/install.sh
 less install.sh
 sh install.sh
 ```
@@ -95,7 +95,7 @@ the launch, which is a position to make it better if you ask.
 - **It does not touch your dotfiles.** Not `~/.vimrc`, not `~/.config/yazi`,
   not your git config. It writes into its own tree and points tools there for
   one process
-  ([ADR-009](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-009--bothy-is-isolated-it-brings-its-own-config-tree)).
+  ([ADR-009](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-009--bothy-is-isolated-it-brings-its-own-config-tree)).
 - **It never asks for root.**
 
 ## Scope for a report
@@ -105,4 +105,4 @@ the Homebrew cask's quarantine removal, and the configs bothy generates for
 other tools. Out of scope: what the agent does, and holes in the tools bothy
 fetches — although a flaw in how bothy pins or verifies them is in scope. The
 full statement is
-[SECURITY.md](https://github.com/bspeelm/bothy/blob/main/SECURITY.md).
+[SECURITY.md](https://github.com/lampseen/bothy/blob/main/SECURITY.md).

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	bothy "github.com/bspeelm/bothy"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/render"
+	bothy "github.com/lampseen/bothy"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/render"
 )
 
 // The generated yazi config named xdg-open on every machine. macOS has `open`

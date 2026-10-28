@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // A key can be unrecognised for three reasons, and bothy could name only two:

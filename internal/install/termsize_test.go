@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 func envValue(env []string, key string) (string, bool) {

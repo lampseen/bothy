@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // Bare `bothy attach` means this project. Naming a session explicitly is how

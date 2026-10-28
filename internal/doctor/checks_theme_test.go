@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 func themeSandbox(t *testing.T, fg string) Env {

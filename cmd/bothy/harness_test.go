@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/doctor"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/doctor"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // assertReport compares a doctor report against what this machine should say.

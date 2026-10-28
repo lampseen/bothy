@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/doctor"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/doctor"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // `bothy doctor` -- run the checks and render them, for a person or for CI.

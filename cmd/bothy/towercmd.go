@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/state"
 )
 
 // `bothy tower` -- the effects half: ask the multiplexer what is running, and

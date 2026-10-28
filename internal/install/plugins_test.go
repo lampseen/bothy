@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // #49. `ya pkg add` records a revision, but it records whatever HEAD was on

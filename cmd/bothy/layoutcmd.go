@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/theme"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/theme"
 )
 
 // `bothy layout` and `bothy theme` -- print what install would write.

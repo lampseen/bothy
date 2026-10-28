@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/platform"
 	"strings"
 	"text/template"
 
-	bothy "github.com/bspeelm/bothy"
+	bothy "github.com/lampseen/bothy"
 )
 
 // The desktop entry is the one file bothy writes outside its own tree, because

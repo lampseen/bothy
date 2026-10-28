@@ -11,7 +11,7 @@
 # stays per-user in ~/.local/share/bothy, exactly as it does for any other
 # install method; nothing here changes what bothy does at runtime.
 
-%global goipath github.com/bspeelm/bothy
+%global goipath github.com/lampseen/bothy
 %global debug_package %{nil}
 
 Name:           bothy
@@ -20,7 +20,7 @@ Release:        1%{?dist}
 Summary:        A terminal workspace assembled from tools you already have
 
 License:        MIT
-URL:            https://github.com/bspeelm/bothy
+URL:            https://github.com/lampseen/bothy
 Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:  golang >= 1.24
@@ -76,82 +76,82 @@ go test ./...
 
 %changelog
 * Fri Oct 23 2026 Bryan Speelman <bryspeelm@pm.me> - 0.14.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.14.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.14.0
 
 * Tue Oct 13 2026 Bryan Speelman <bryspeelm@pm.me> - 0.13.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.13.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.13.1
 
 * Tue Sep 22 2026 Bryan Speelman <bryspeelm@pm.me> - 0.13.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.13.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.13.0
 
 * Mon Sep 14 2026 Bryan Speelman <bryspeelm@pm.me> - 0.12.2-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.12.2
+- See https://github.com/lampseen/bothy/releases/tag/v0.12.2
 
 * Tue Sep 08 2026 Bryan Speelman <bryspeelm@pm.me> - 0.12.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.12.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.12.1
 
 * Tue Sep 08 2026 Bryan Speelman <bryspeelm@pm.me> - 0.12.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.12.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.12.0
 
 * Mon Sep 07 2026 Bryan Speelman <bryspeelm@pm.me> - 0.11.2-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.11.2
+- See https://github.com/lampseen/bothy/releases/tag/v0.11.2
 
 * Mon Sep 07 2026 Bryan Speelman <bryspeelm@pm.me> - 0.11.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.11.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.11.1
 
 * Mon Sep 07 2026 Bryan Speelman <bryspeelm@pm.me> - 0.11.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.11.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.11.0
 
 * Fri Sep 04 2026 Bryan Speelman <bryspeelm@pm.me> - 0.10.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.10.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.10.1
 
 * Fri Sep 04 2026 Bryan Speelman <bryspeelm@pm.me> - 0.10.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.10.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.10.0
 
 * Fri Sep 04 2026 Bryan Speelman <bryspeelm@pm.me> - 0.9.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.9.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.9.1
 
 * Fri Sep 04 2026 Bryan Speelman <bryspeelm@pm.me> - 0.9.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.9.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.9.0
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.8.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.8.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.8.1
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.8.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.8.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.8.0
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.7.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.7.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.7.0
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.6.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.6.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.6.0
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.5.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.5.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.5.0
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.4.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.4.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.4.0
 
 * Wed Sep 02 2026 Bryan Speelman <bryspeelm@pm.me> - 0.3.2-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.3.2
+- See https://github.com/lampseen/bothy/releases/tag/v0.3.2
 
 * Tue Sep 01 2026 Bryan Speelman <bryspeelm@pm.me> - 0.3.1-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.3.1
+- See https://github.com/lampseen/bothy/releases/tag/v0.3.1
 
 * Tue Sep 01 2026 Bryan Speelman <bryspeelm@pm.me> - 0.3.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.3.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.3.0
 
 * Tue Sep 01 2026 Bryan Speelman <bryspeelm@pm.me> - 0.2.0-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.2.0
+- See https://github.com/lampseen/bothy/releases/tag/v0.2.0
 
 * Mon Aug 31 2026 Bryan Speelman <bryspeelm@pm.me> - 0.1.5-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.1.5
+- See https://github.com/lampseen/bothy/releases/tag/v0.1.5
 
 * Mon Aug 31 2026 Bryan Speelman <bryspeelm@pm.me> - 0.1.4-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.1.4
+- See https://github.com/lampseen/bothy/releases/tag/v0.1.4
 
 * Mon Aug 31 2026 Bryan Speelman <bryspeelm@pm.me> - 0.1.3-1
-- See https://github.com/bspeelm/bothy/releases/tag/v0.1.3
+- See https://github.com/lampseen/bothy/releases/tag/v0.1.3
 
 * Mon Aug 31 2026 Bryan Speelman <bryspeelm@pm.me> - 0.1.2-1
 - Initial Copr package.

@@ -1,8 +1,8 @@
 package mux
 
 import (
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // None is the second implementation. `slots.mux = "none"` is already an

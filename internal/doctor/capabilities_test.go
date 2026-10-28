@@ -4,9 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
 )
 
 // provides is a capability vocabulary shared between the data and the doctor.

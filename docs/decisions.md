@@ -1164,11 +1164,11 @@ the setup bothy was built from". Every trap in it became a `doctor` check;
 reading it teaches you where bothy came from, not how to use it.
 
 What is left in `docs/` is what someone arriving would want:
-[what happens when you type it](https://github.com/bspeelm/bothy/wiki/What-happens-when-you-type-bothy) for the run,
+[what happens when you type it](https://github.com/lampseen/bothy/wiki/What-happens-when-you-type-bothy) for the run,
 [`decisions.md`](decisions.md) for the why, [`PLAN.md`](PLAN.md) for the
 architecture, [`north-star.md`](north-star.md) for the aim,
 [`adding-a-provider.md`](adding-a-provider.md) for extending it, and
-[the watermark](https://github.com/bspeelm/bothy/wiki/The-watermark) for the one feature with a setup worth its own
+[the watermark](https://github.com/lampseen/bothy/wiki/The-watermark) for the one feature with a setup worth its own
 page. [`README.md`](README.md) says which is which, because a directory
 listing does not.
 

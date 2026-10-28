@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // #73. desktop.go wrote ~/.local/share/applications/bothy.desktop wherever it

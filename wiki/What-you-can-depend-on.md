@@ -26,7 +26,7 @@ Not covered: anything printed for a human to read, the layout of
 
 ---
 
-[ADR-036](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-036--what-stable-obliges-and-why-the-config-schema-warns)
+[ADR-036](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-036--what-stable-obliges-and-why-the-config-schema-warns)
 records what this obliges and why a config from a newer bothy warns rather than
 refuses.
 

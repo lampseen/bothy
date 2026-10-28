@@ -14,7 +14,7 @@ import (
 
 	"github.com/pelletier/go-toml/v2"
 
-	bothy "github.com/bspeelm/bothy"
+	bothy "github.com/lampseen/bothy"
 )
 
 // Provider is one file under slots/. A provider says what it is, then at most

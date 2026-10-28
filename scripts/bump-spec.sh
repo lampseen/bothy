@@ -19,7 +19,7 @@ trap 'rm -f "$tmp"' EXIT
 sed "s/^Version:.*/Version:        $version/" "$spec" > "$tmp"
 
 awk -v entry="* $date $name <$email> - $version-1" \
-    -v url="- See https://github.com/bspeelm/bothy/releases/tag/v$version" '
+    -v url="- See https://github.com/lampseen/bothy/releases/tag/v$version" '
     { print }
     /^%changelog$/ { print entry; print url; print "" }
 ' "$tmp" > "$spec"

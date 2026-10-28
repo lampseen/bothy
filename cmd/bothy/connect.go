@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/mux"
 )
 
 // The half of `bothy connect` that starts nothing: what to mount, what each

@@ -82,6 +82,6 @@ so where the two disagree, yours applies.
 ---
 
 Why the slots are shaped this way, and why only the multiplexer needs Go:
-[ADR-017](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-017--the-invariant-is-three-panes-everything-else-is-a-provider)
-and [ADR-019](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-019--amends-adr-005-three-provider-tiers-stated).
-Adding one is [`docs/adding-a-provider.md`](https://github.com/bspeelm/bothy/blob/main/docs/adding-a-provider.md).
+[ADR-017](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-017--the-invariant-is-three-panes-everything-else-is-a-provider)
+and [ADR-019](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-019--amends-adr-005-three-provider-tiers-stated).
+Adding one is [`docs/adding-a-provider.md`](https://github.com/lampseen/bothy/blob/main/docs/adding-a-provider.md).

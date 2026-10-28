@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/slots"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // forge serves GitHub's releases endpoint. tags maps "owner/repo" to the tag

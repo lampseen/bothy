@@ -3,8 +3,8 @@ package doctor
 import (
 	"os/exec"
 
-	"github.com/bspeelm/bothy/internal/advice"
-	"github.com/bspeelm/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/advice"
+	"github.com/lampseen/bothy/internal/install"
 )
 
 // checkSSHFS reports whether `bothy connect` would work, and only once

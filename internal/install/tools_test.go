@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // The manifest recorded a tool at <bin>/fd while the installer had written

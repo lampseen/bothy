@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/confine"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/confine"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // The half of `bothy box` that touches nothing: decoding podman's listing and

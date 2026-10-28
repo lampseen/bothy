@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bspeelm/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/config"
 )
 
 // `bothy config` -- read and write the handful of choices bothy keeps.

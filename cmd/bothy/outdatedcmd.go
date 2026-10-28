@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bspeelm/bothy/internal/fetch"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/fetch"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // `bothy outdated` -- which pinned tools have newer releases upstream.

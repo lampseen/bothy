@@ -27,7 +27,7 @@ bothy confine
 **bothy writes the recipe and never builds it.** Building installs an agent,
 and bothy does not install agents: their installation methods change, they
 require credentials bothy should not handle, and one arriving unrequested is
-more than a workspace tool should do ([ADR-034](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-034--the-agent-can-be-walled-off-on-request-and-never-by-default)).
+more than a workspace tool should do ([ADR-034](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-034--the-agent-can-be-walled-off-on-request-and-never-by-default)).
 
 The Containerfile is yours once written: change the agent, pin a version, add
 tools. bothy does not overwrite it. `bothy confine --print` shows the recipe

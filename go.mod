@@ -1,4 +1,4 @@
-module github.com/bspeelm/bothy
+module github.com/lampseen/bothy
 
 go 1.24
 

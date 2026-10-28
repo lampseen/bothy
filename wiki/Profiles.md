@@ -53,7 +53,7 @@ the only on-screen reminder of Zellij's modal keys.
 ## Writing your own
 
 Profiles are TOML. Copy one out of
-[`profiles/`](https://github.com/bspeelm/bothy/blob/main/profiles) into
+[`profiles/`](https://github.com/lampseen/bothy/blob/main/profiles) into
 `~/.config/bothy/profiles/`, change it, and name it in your config.
 
 ```toml
@@ -76,6 +76,6 @@ names nothing and gets a plain shell. Exactly one pane should have
 reports `panes` as available when the profile renders and the multiplexer
 builds what it describes; a two-pane profile of your own is fine, and `bothy
 doctor` will tell you what it got
-([ADR-017](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md#adr-017--the-invariant-is-three-panes-everything-else-is-a-provider)).
+([ADR-017](https://github.com/lampseen/bothy/blob/main/docs/decisions.md#adr-017--the-invariant-is-three-panes-everything-else-is-a-provider)).
 
 [Swapping parts, and theming](Swapping-parts-and-theming) · [All commands](Commands)

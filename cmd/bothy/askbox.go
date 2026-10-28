@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/state"
 )
 
 // Asking, once, which box a project belongs in. bothy guessed before, and the

@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/probe"
 )
 
 // yaziComplaint matches the noise Yazi makes when it rejects a config. On a

@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bspeelm/bothy/internal/install"
-	"github.com/bspeelm/bothy/internal/mux"
+	"github.com/lampseen/bothy/internal/install"
+	"github.com/lampseen/bothy/internal/mux"
 )
 
 // cmdLs lists the multiplexer sessions that are running. `zellij

@@ -63,7 +63,7 @@ archives:
 #
 # Both need a credential in the release environment and are skipped without
 # one: HOMEBREW_TAP_TOKEN, a fine-grained PAT with Contents: write on
-# bspeelm/homebrew-bothy and nothing else; and AUR_KEY, the SSH private key of
+# lampseen/homebrew-bothy and nothing else; and AUR_KEY, the SSH private key of
 # an account with the bothy name claimed.
 
 # aur_sources builds on the user's machine, so it needs a source tarball in the
@@ -76,7 +76,7 @@ homebrew_casks:
   - name: bothy
     ids: [bothy]
     repository:
-      owner: bspeelm
+      owner: lampseen
       name: homebrew-bothy
       # .Env, not envOrDefault: the latter is not a function in the goreleaser
       # the action installs, and a template that cannot compile is only found
@@ -93,7 +93,7 @@ homebrew_casks:
           if OS.mac?
             system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/bothy"]
           end
-    homepage: https://github.com/bspeelm/bothy
+    homepage: https://github.com/lampseen/bothy
     description: A terminal workspace assembled from tools you already have
     # No dependencies declared: bothy fetches what it needs into its own tree,
     # and installing zellij or yazi system-wide is the opposite of ADR-009.
@@ -105,7 +105,7 @@ scoops:
   - name: bothy
     ids: [bothy]
     repository:
-      owner: bspeelm
+      owner: lampseen
       name: scoop-bothy
       # .Env for the same reason as the cask: a template that cannot compile
       # is only found at release time, after the tag is pushed.
@@ -118,7 +118,7 @@ scoops:
       name: goreleaserbot
       email: bot@goreleaser.com
     commit_msg_template: "scoop: bothy {{ .Tag }}"
-    homepage: https://github.com/bspeelm/bothy
+    homepage: https://github.com/lampseen/bothy
     description: A terminal workspace assembled from tools you already have
     license: MIT
     # No `directory`: scoop bucket list reports zero manifests when they are
@@ -132,7 +132,7 @@ scoops:
 aur_sources:
   - name: bothy
     ids: [bothy]
-    homepage: https://github.com/bspeelm/bothy
+    homepage: https://github.com/lampseen/bothy
     description: A terminal workspace assembled from tools you already have
     license: MIT
     maintainers: ['Bryan Speelman <bryspeelm@pm.me>']
@@ -180,7 +180,7 @@ nfpms:
     formats: [deb]
 
     maintainer: Bryan Speelman <bryspeelm@pm.me>
-    homepage: https://github.com/bspeelm/bothy
+    homepage: https://github.com/lampseen/bothy
     license: MIT
     section: utils
     priority: optional
@@ -265,9 +265,9 @@ release:
     |---|---|
     | **Fedora** | `sudo dnf copr enable bspeelman/bothy && sudo dnf install bothy` |
     | **Debian, Ubuntu, Mint** | download the `.deb` below, then `sudo apt install ./bothy_*.deb` |
-    | **macOS** | `brew install --cask bspeelm/bothy/bothy` |
-    | **Windows** | `scoop bucket add bothy https://github.com/bspeelm/scoop-bothy && scoop install bothy` — in beta |
-    | **you already have Go** | `go install github.com/bspeelm/bothy/cmd/bothy@latest` |
+    | **macOS** | `brew install --cask lampseen/bothy/bothy` |
+    | **Windows** | `scoop bucket add bothy https://github.com/lampseen/scoop-bothy && scoop install bothy` — in beta |
+    | **you already have Go** | `go install github.com/lampseen/bothy/cmd/bothy@latest` |
 
     Then run `bothy` from any directory.
 
@@ -276,12 +276,12 @@ release:
     the host:
 
     ```sh
-    curl -fsSL https://raw.githubusercontent.com/bspeelm/bothy/main/bootstrap/install.sh | sh
+    curl -fsSL https://raw.githubusercontent.com/lampseen/bothy/main/bootstrap/install.sh | sh
     ```
 
     It is fetched over HTTPS and run unsigned, before bothy exists to verify
     anything -- the same trade as any `curl | sh`.
-    [All seven ways in, and what checks what](https://github.com/bspeelm/bothy/wiki/Installing).
+    [All seven ways in, and what checks what](https://github.com/lampseen/bothy/wiki/Installing).
 
     bothy keeps its own files in `~/.local/share/bothy` and your settings in
     `~/.config/bothy`. Your dotfiles are neither read nor written, and

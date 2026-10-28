@@ -3,8 +3,8 @@ package fetch
 import (
 	"sort"
 
-	"github.com/bspeelm/bothy/internal/probe"
-	"github.com/bspeelm/bothy/internal/tools"
+	"github.com/lampseen/bothy/internal/probe"
+	"github.com/lampseen/bothy/internal/tools"
 )
 
 // Update is what one tool's pin looks like against its latest release. Reason

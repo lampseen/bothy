@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/config"
-	"github.com/bspeelm/bothy/internal/layout"
-	"github.com/bspeelm/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/config"
+	"github.com/lampseen/bothy/internal/layout"
+	"github.com/lampseen/bothy/internal/platform"
 )
 
 // connect mounts the far machine with sshfs, which wants FUSE: it is a Linux

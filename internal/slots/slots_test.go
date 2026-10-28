@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	bothy "github.com/bspeelm/bothy"
+	bothy "github.com/lampseen/bothy"
 )
 
 // Every provider has to be findable and describable, because the header is

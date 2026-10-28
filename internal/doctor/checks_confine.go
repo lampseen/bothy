@@ -3,7 +3,7 @@ package doctor
 import (
 	"os"
 
-	"github.com/bspeelm/bothy/internal/confine"
+	"github.com/lampseen/bothy/internal/confine"
 )
 
 // checkConfine reports whether `bothy confine` would work, and only once the

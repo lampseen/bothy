@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bspeelm/bothy/internal/doctor"
+	"github.com/lampseen/bothy/internal/doctor"
 )
 
 var images = []string{"fedora:44", "ubuntu:24.04", "debian:trixie", "archlinux:latest"}

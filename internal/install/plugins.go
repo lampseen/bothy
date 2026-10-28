@@ -8,9 +8,9 @@ import (
 
 	"github.com/pelletier/go-toml/v2"
 
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
-	"github.com/bspeelm/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/state"
 )
 
 // Plugin is a package a provider's generated config depends on, pinned to a

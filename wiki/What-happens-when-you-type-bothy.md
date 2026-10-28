@@ -2,8 +2,8 @@
 
 In order, with the reason for the order. This page explains the behaviour;
 `docs/PLAN.md` is the architecture,
-[`decisions.md`](https://github.com/bspeelm/bothy/blob/main/docs/decisions.md) is why the architecture is that, and
-[`adding-a-provider.md`](https://github.com/bspeelm/bothy/blob/main/docs/adding-a-provider.md) is how to extend it.
+[`decisions.md`](https://github.com/lampseen/bothy/blob/main/docs/decisions.md) is why the architecture is that, and
+[`adding-a-provider.md`](https://github.com/lampseen/bothy/blob/main/docs/adding-a-provider.md) is how to extend it.
 
 ## 1. It looks at the machine
 

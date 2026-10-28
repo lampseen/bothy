@@ -16,10 +16,10 @@ import (
 
 	"github.com/pelletier/go-toml/v2"
 
-	"github.com/bspeelm/bothy/internal/platform"
-	"github.com/bspeelm/bothy/internal/slots"
-	"github.com/bspeelm/bothy/internal/state"
-	"github.com/bspeelm/bothy/internal/theme"
+	"github.com/lampseen/bothy/internal/platform"
+	"github.com/lampseen/bothy/internal/slots"
+	"github.com/lampseen/bothy/internal/state"
+	"github.com/lampseen/bothy/internal/theme"
 )
 
 // Schema is the config.toml shape version. A file without the key is schema 1:

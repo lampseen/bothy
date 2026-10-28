@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	bothy "github.com/bspeelm/bothy"
+	bothy "github.com/lampseen/bothy"
 )
 
 // go:embed skips files whose names begin with an underscore unless the pattern
