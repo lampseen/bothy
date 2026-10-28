@@ -1175,6 +1175,18 @@ func localWords(t *testing.T) []string {
 	}
 	repo := filepath.Base(root)
 	seen := map[string]bool{repo: true}
+	// The module path names the repository's owner, so that word is already
+	// public, and a checkout kept under a directory of the owner's name is
+	// the ordinary layout rather than a leak.
+	if mod, err := os.ReadFile(filepath.Join(root, "go.mod")); err == nil {
+		for _, line := range strings.Split(string(mod), "\n") {
+			if path, ok := strings.CutPrefix(line, "module "); ok {
+				if parts := strings.Split(strings.TrimSpace(path), "/"); len(parts) >= 2 {
+					seen[strings.ToLower(parts[1])] = true
+				}
+			}
+		}
+	}
 	var out []string
 	add := func(w string) {
 		l := strings.ToLower(w)
